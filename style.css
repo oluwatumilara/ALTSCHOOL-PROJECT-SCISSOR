@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --light-fill-color :#0065FE;
+    --font-darl-blue:#005AE2;
+    --buttob-font-color:#fff;
+    --background-color2: #F9FBFD;
+    --background-icon-color: #E2E9F0
+}
+
+
+body{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 20px;
+}
+/* STYLING THE HEADER SECTION */
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 70px;
+    font-size: 80%;
+    
+}
+.nav-logo{
+    width: 130px;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+li:first-child{
+    color: var(--light-fill-color);
+}
+.nav-btn-dtls{
+    padding: 0px 20px;
+}
+.login-text{
+color: var(--light-fill-color);
+display: inline-block;
+margin-right: 10px;
+}
+.nav-btn{
+    padding: 9px 15px;
+    background-color: var(--light-fill-color);
+    color: #fff;
+    border-radius: 20px;
+    border: 0;
+    font-weight: 700;
+
+}
+/* STYLING THE HERO section */
+.hero{
+    margin-top: 50px;
+}
+.hero-cent-cnt{
+    margin: 30px auto;
+    width: 880px;
+    text-align: center;
+}
+h1{
+    line-height: 1.7em;
+    font-size: 180%;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.txt-cntr{
+   color: var(--light-fill-color);
+   display: inline-block;
+   /* border-bottom: 5px solid #0065FE; */
+
+}
+
+.hero-cent-cnt2{
+    font-size: 90%;
+    width: 750px;
+    margin: 30px auto;
+    line-height: 1.5em;
+}
+.hero-btn{
+    padding: 9px 35px;
+    background-color: var(--light-fill-color);
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+}
+.hero-more{
+    margin-left: 50px;
+    font-size: 85%;
+    color: var(--light-fill-color);
+}
+.grp2-img{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+.grp3-img{
+    width: 100vw;
+}
+.grp3-img2{
+    width: 100%;
+}
+.sub-session{
+    background-color: var(--background-color2);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+h2{
+    text-transform: capitalize;
+    font-family: 'Gilroy-Medium', sans-serif;
+
+}
+.sub-session-color{
+    color: var(--light-fill-color);
+}
+.sub-session2{
+    text-align: center;
+}
+.sub-cnt{
+    font-size: 75%;
+}
+/* styling why choose us session */
+.scissors-scnd{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+.scissors-scnd1{
+    width: 30%;
+}
+.scissors-scnd-sessn-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 55%;
+}
+.icon-link{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: var(--background-icon-color);
+}
+.img-icon{
+    position: absolute;
+    top: 63.3rem; 
+    left: 620px;
+}
+.img-icon2{
+    left: 60.3rem; 
+}
+.img-icon3{
+    top: 78rem; 
+    left: 620px;
+}
+.img-icon4{
+    left: 60.3rem; 
+}
+.icon-head{
+    margin-top: 40px;
+}
+.scnd-grid{
+    margin-top: 30px;
+}
+.first-grid{
+    margin-right: 30px;
+}
+.chz-scissors-cnt{
+    font-size: 85%;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+/* STYLING CARD COMPONENT */
